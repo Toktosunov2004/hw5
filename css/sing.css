@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    list-style: none;
+    text-decoration: none;
+    color: #da9e1f;
+    background: #060606;
+  
+  }
+  
+
+  /* Form */
+  
+  .signIn {
+    max-width: 400px;
+    width: 100%;
+    margin: 80px auto;
+  }
+  
+  .signIn h1 {
+    font-weight: 500;
+    font-size: 34px;
+  }
+  
+  .form form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+  }
+  
+  .form form label {
+    padding-left: 17px;
+  }
+  
+  .form form input {
+    margin: 15px;
+  }
+  
+  form span {
+    position: relative;
+  }
+  
+  form span::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+ 
+    border-radius: 50px;
+    left: 135px;
+  }
+  
+  form label {
+    opacity: 1;
+    font-weight: bold;
+  }
+  
+  form input {
+    height: 39px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid rgb(190, 151, 43);
+    background: #c95c3a;
+    outline: none;
+    padding: 0 20px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  form button {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #f5f5f5;
+    height: 39px;
+    border-radius: 15px;
+    background: #ad6767;
+    border: none;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    opacity: 1;
+    transition: 1.5s;
+    
+  }
+  
+  form button:hover {
+    background: #4e64a1;
+    padding-right: 0;
+  }
+  
+  form button:nth-child(5) {
+    margin-top: 15px;
+  }
+  
+  form button:nth-child(6) {
+    font-weight: 200;
+    color: #060606;
+    background: #f5f5f5;
+  }
+  
+  .form p {
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .form p a {
+    text-decoration: underline;
+  }
+  
+  .or {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .or span {
+    color: #888;
+    text-transform: uppercase;
+    position: relative;
+  }
+  
+  .or span::before {
+    content: "";
+    height: 1px;
+    width: 150px;
+    background: #e7e5e5;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+  }
+  
+  .or span::after {
+    content: "";
+    height: 1px;
+    width: 150px;
+    background: #e7e5e5;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+  }
+  
+  .create {
+    text-align: center;
+    margin: 40px;
+  }
+  
+  .create button {
+    border: 3px  solid #060606;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: transparent;
+  }
+  
+  .create button:hover {
+    background:  #fabd6d;
+    color: #f5f5f5;
+    font-weight: 500;
+  }
+ 
+  
